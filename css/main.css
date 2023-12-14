@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #333333;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+header .container ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .container ul li a:hover {
+  border-bottom: 2px solid #b99470;
+}
+
+header h1 {
+  color: white;
+  align-items: center;
+}
+
+div video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.titre-video {
+  position: absolute;
+  top: 20px;
+}
+
+div.video video {
+  width: 100%;
+  height: auto;
+}
+
+div.video {
+  position: relative;
+  max-width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.titre-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.titrerecette {
+  text-align: center;
+  font-size: 1.93rem;
+  letter-spacing: 9px;
+}
+
+.RecetteRouge {
+  background-color: red;
+  color: white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  margin-left: 9rem;
+  height: 150px;
+
+}
+
+.RecetteVerte {
+  background-color: #A0C525;
+  color: white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  width: 350px;
+  height: 150px;
+  
+}
+
+.RecetteOrange {
+  background-color: #C94C05;
+  color: white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 9rem;
+  width: 350px;
+  height: 150px;
+}
+
+.RecetteTotal {
+  display: flex;
+  justify-content: center;
+}
+
+.ChoixBoisson {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 250px;
+  margin-left: 260px ;
+}
+
+.BoissonEnergisante {
+  border-radius: 1rem;
+  background-color:#D2D0C3 ;
+  border-color: #D2D0C3;
+  padding: 7px;
+  
+}
+
+.BoissonDesalterante {
+  border-radius: 1rem;
+  margin-left: 3rem;
+  background-color: #D2D0C3;
+  border-color:#D2D0C3;
+  padding: 7px;
+}
+
+.DetailBoisson {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.8rem;
+  margin-bottom: 0rem;
+  
+}
+
+.InfoBoissonRouge {
+  border-radius: 1rem;
+  background-color: #BB040E;
+  border-color: #BB040E;
+  color: white;
+  margin-bottom : 0.5rem;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.InfoBoissonVerte {
+  border-radius: 1rem;
+  background-color:#83A11C ;
+  border-color: #83A11C;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.InfoBoissonOrange {
+  border-radius: 1rem;
+  background-color: #A53E03;
+  border-color: #A53E03;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.SelectionBoisson {
+  font-size: 12px;
+  margin: 1rem;
+  
+}
+
+.RecetteRouge {
+  width: 350px;
+}
+
+.containerRecette {
+  align-items: center;
+}
+
+.compositionBoisson {
+  padding-left:13px;
+}
+.compositionBoissonTitre {
+  padding-left:13px; 
+  margin-right: 10rem;
+  margin-bottom: 1px; 
+  }
+  
+  .TitreIcon {
+   display: flex;
+   flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .cooling {
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+
+/*# sourceMappingURL=main.css.map */
+
+
+
+
+/* main.css */
+/* main.css */
+/* main.css */
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block !important;
+}
+
+body {
+  margin: 0;
+}

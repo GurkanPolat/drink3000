@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #333333;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+header .container ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .container ul li a:hover {
+  border-bottom: 2px solid #b99470;
+}
+
+header h1 {
+  color: white;
+  align-items: center;
+}
+
+div video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.titre-video {
+  position: absolute;
+  top: 20px;
+}
+
+div.video video {
+  width: 100%;
+  height: auto;
+}
+
+div.video {
+  position: relative;
+  max-width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.titre-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.RecetteRouge {
+  background-color: red;
+  color: white;
+  margin: 1rem;
+}
+
+.RecetteVerte {
+  background-color: green;
+  color: white;
+  margin: 1rem;
+}
+
+.RecetteOrange {
+  background-color: orange;
+  color: white;
+  margin: 1rem;
+}
+
+.RecetteTotal {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=main.css.map */
